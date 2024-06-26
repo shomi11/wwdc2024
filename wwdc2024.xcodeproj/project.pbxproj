@@ -12,6 +12,7 @@
 		106E2EB42C2AFBAD005E8E3F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E2EB32C2AFBAD005E8E3F /* Item.swift */; };
 		106E2EB62C2AFBAE005E8E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106E2EB52C2AFBAE005E8E3F /* Assets.xcassets */; };
 		106E2EB92C2AFBAE005E8E3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106E2EB82C2AFBAE005E8E3F /* Preview Assets.xcassets */; };
+		106E2EC12C2AFC2B005E8E3F /* MeshGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E2EC02C2AFC2B005E8E3F /* MeshGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		106E2EB32C2AFBAD005E8E3F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		106E2EB52C2AFBAE005E8E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		106E2EB82C2AFBAE005E8E3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		106E2EC02C2AFC2B005E8E3F /* MeshGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		106E2EAE2C2AFBAD005E8E3F /* wwdc2024 */ = {
 			isa = PBXGroup;
 			children = (
+				106E2EBF2C2AFC14005E8E3F /* views */,
 				106E2EAF2C2AFBAD005E8E3F /* wwdc2024App.swift */,
 				106E2EB12C2AFBAD005E8E3F /* ContentView.swift */,
 				106E2EB32C2AFBAD005E8E3F /* Item.swift */,
@@ -68,6 +71,14 @@
 				106E2EB82C2AFBAE005E8E3F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		106E2EBF2C2AFC14005E8E3F /* views */ = {
+			isa = PBXGroup;
+			children = (
+				106E2EC02C2AFC2B005E8E3F /* MeshGradientView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 				106E2EB22C2AFBAD005E8E3F /* ContentView.swift in Sources */,
 				106E2EB42C2AFBAD005E8E3F /* Item.swift in Sources */,
 				106E2EB02C2AFBAD005E8E3F /* wwdc2024App.swift in Sources */,
+				106E2EC12C2AFC2B005E8E3F /* MeshGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
