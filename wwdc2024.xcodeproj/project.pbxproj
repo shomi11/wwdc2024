@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1012A2392C2D971900FCEF19 /* PresentationSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1012A2382C2D971900FCEF19 /* PresentationSheetsView.swift */; };
+		1012A23B2C2DA04500FCEF19 /* TransitionSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1012A23A2C2DA04500FCEF19 /* TransitionSourceView.swift */; };
 		106E2EB02C2AFBAD005E8E3F /* wwdc2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E2EAF2C2AFBAD005E8E3F /* wwdc2024App.swift */; };
 		106E2EB22C2AFBAD005E8E3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E2EB12C2AFBAD005E8E3F /* ContentView.swift */; };
 		106E2EB42C2AFBAD005E8E3F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E2EB32C2AFBAD005E8E3F /* Item.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1012A2382C2D971900FCEF19 /* PresentationSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationSheetsView.swift; sourceTree = "<group>"; };
+		1012A23A2C2DA04500FCEF19 /* TransitionSourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSourceView.swift; sourceTree = "<group>"; };
 		106E2EAC2C2AFBAD005E8E3F /* wwdc2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wwdc2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		106E2EAF2C2AFBAD005E8E3F /* wwdc2024App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wwdc2024App.swift; sourceTree = "<group>"; };
 		106E2EB12C2AFBAD005E8E3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				106E2EC02C2AFC2B005E8E3F /* MeshGradientView.swift */,
+				1012A2382C2D971900FCEF19 /* PresentationSheetsView.swift */,
+				1012A23A2C2DA04500FCEF19 /* TransitionSourceView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1012A2392C2D971900FCEF19 /* PresentationSheetsView.swift in Sources */,
 				106E2EB22C2AFBAD005E8E3F /* ContentView.swift in Sources */,
+				1012A23B2C2DA04500FCEF19 /* TransitionSourceView.swift in Sources */,
 				106E2EB42C2AFBAD005E8E3F /* Item.swift in Sources */,
 				106E2EB02C2AFBAD005E8E3F /* wwdc2024App.swift in Sources */,
 				106E2EC12C2AFC2B005E8E3F /* MeshGradientView.swift in Sources */,

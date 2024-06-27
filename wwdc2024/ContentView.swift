@@ -15,7 +15,7 @@ struct ContentView: View {
         NavigationSplitView {
             
         } content: {
-            MeshGradientView()
+            PresentationSheetsView()
         } detail: {
             
         }
